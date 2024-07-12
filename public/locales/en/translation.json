@@ -1,0 +1,54 @@
+{
+    "cancel": "Cancel",
+    "ok": "Ok",
+    "save": "Save",
+    "something_went_wrong": "Something went wrong",
+    "back": "Back",
+    "language": "Language",
+    "next": "Next",
+    "submit": "Submit",
+    "bad": "Bad",
+    "good": "Good",
+    "reload": "Reload",
+    "message": {
+        "success": {
+            "get": "Load data successfully",
+            "create": "Create successfully",
+            "update": "Update successfully",
+            "delete": "Delete successfully",
+            "default": "Success"
+        },
+        "error": {
+            "time_out": "Request time out",
+            "unexpected": "Unexpected error",
+            "default": "Error",
+            "contact_name_required": "Customer name is required",
+            "phone_number_required": "Phone number is required",
+            "email_required": "Email is required",
+            "email_validation": "Invalid email address",
+            "phone_number_validation": "Invalid phone number",
+            "url_validation": "Invalid access code. Please try again!",
+            "polled": "Thank you for your review. Please try again later!"
+        }
+    },
+    "auth": {
+        "content_body_not_authorized_to_access_page": "Sorry, you are not authorized to access this page."
+    },
+    "survey": {
+        "welcome": "Thank you for taking the time to rate us so we can improve our service quality.",
+        "poll_success": "Thank you for taking the time to rate us so we can improve our service quality. The Restaurant hopes to continue to serve you.",
+        "title": "Survey",
+        "title_page": "Restaurant Survey",
+        "btn_survey": "Survey",
+        "field": {
+            "contact_name": "Customer name",
+            "phone_number": "Phone number",
+            "email": "Email",
+            "feedback": "Feedback",
+            "comment": "Other reviews"
+        }
+    },
+    "rule": {
+        "required": "This field is required"
+    }
+}

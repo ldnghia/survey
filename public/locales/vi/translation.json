@@ -1,0 +1,54 @@
+{
+    "cancel": "Hủy",
+    "ok": "Đồng ý",
+    "save": "Lưu",
+    "something_went_wrong": "Đã xảy ra lỗi",
+    "back": "Quay lại",
+    "language": "Ngôn ngữ",
+    "next": "Tiếp tục",
+    "submit": "Gửi",
+    "bad": "Tệ",
+    "good": "Tốt",
+    "reload": "Tải lại",
+    "message": {
+        "success": {
+            "get": "Tải dữ liệu thành công",
+            "create": "Thêm mới thành công",
+            "update": "Cập nhật thành công",
+            "delete": "Xóa thành công",
+            "default": "Thành công"
+        },
+        "error": {
+            "time_out": "Hết thời gian chờ",
+            "unexpected": "Lỗi ngoại lệ",
+            "default": "Lỗi",
+            "contact_name_required": "Tên khách hàng là bắt buộc",
+            "phone_number_required": "Số điện thoại là bắt buộc",
+            "email_required": "Email là bắt buộc",
+            "email_validation": "Địa chỉ email không hợp lệ",
+            "phone_number_validation": "Số điện thoại không hợp lệ",
+            "url_validation": "Mã truy cập không hợp lệ. Quý khách vui lòng thử lại!",
+            "polled": "Cảm ơn Quý khách đã thực hiện đánh giá. Xin Quý khách vui lòng thử lại sau!"
+        }
+    },
+    "auth": {
+        "content_body_not_authorized_to_access_page": "Xin lỗi, bạn không có quyền truy cập trang này."
+    },
+    "survey": {
+        "welcome": "Cảm ơn quý khách đã dành thời gian đánh giá để chúng tôi cải thiện chất lượng dịch vụ tốt hơn.",
+        "poll_success": "Cảm ơn quý khách đã dành thời gian đánh giá để chúng tôi cải thiện chất lượng dịch vụ tốt hơn. Nhà Hàng hy vọng vẫn tiếp tục được phục vụ quý khách.",
+        "title": "Đánh giá",
+        "title_page": "Ý kiến phản hồi",
+        "btn_survey": "Đánh giá",
+        "field": {
+            "contact_name": "Tên khách hàng",
+            "phone_number": "Số điện thoại",
+            "email": "Email",
+            "feedback": "Đánh giá",
+            "comment": "Ý kiến khác của bạn?"
+        }
+    },
+    "rule": {
+        "required": "Trường này là bắt buộc"
+    }
+}

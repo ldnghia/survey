@@ -1,0 +1,75 @@
+{
+    // Configuration for JavaScript files
+    "root": true,
+    "extends": [
+        "airbnb-base",
+        "next/core-web-vitals",
+        "plugin:prettier/recommended"
+    ],
+    "rules": {
+        "no-continue": "off",
+        "no-param-reassign": 0
+    },
+    "overrides": [
+        {
+            "files": ["**/*.ts", "**/*.tsx"],
+            "plugins": ["@typescript-eslint", "unused-imports", "tailwindcss"],
+            "extends": [
+                "airbnb-typescript",
+                "next/core-web-vitals",
+                "plugin:prettier/recommended",
+                "plugin:tailwindcss/recommended",
+                "prettier"
+            ],
+            "parserOptions": {
+                "project": "./tsconfig.json"
+            },
+            "settings": {
+                "tailwindcss": {
+                    "callees": ["clsx", "classNames", "cn", "css", "cva"],
+                    "classRegex": "^class(Names)?$|^tw$"
+                }
+            },
+            "rules": {
+                "@typescript-eslint/no-unused-vars": "off",
+                "@typescript-eslint/no-use-before-define": "off",
+                "react/destructuring-assignment": "off",
+                "jsx-a11y/anchor-is-valid": "off",
+                "react/require-default-props": "off",
+                "react/jsx-props-no-spreading": "off",
+                "import/order": [
+                    "error",
+                    {
+                        "groups": ["builtin", "external", "internal"],
+                        "pathGroups": [
+                            {
+                                "pattern": "react",
+                                "group": "external",
+                                "position": "before"
+                            }
+                        ],
+                        "pathGroupsExcludedImportTypes": ["react"],
+                        "newlines-between": "always",
+                        "alphabetize": {
+                            "order": "asc",
+                            "caseInsensitive": true
+                        }
+                    }
+                ],
+                "@typescript-eslint/comma-dangle": "off",
+                "import/prefer-default-export": "off",
+                "class-methods-use-this": "off",
+                "unused-imports/no-unused-imports": "error",
+                "unused-imports/no-unused-vars": [
+                    "error",
+                    {
+                        "argsIgnorePattern": "^_"
+                    }
+                ],
+                "react-hooks/exhaustive-deps": "off",
+                "consistent-return": "off",
+                "tailwindcss/no-custom-classnames": "off"
+            }
+        }
+    ]
+}

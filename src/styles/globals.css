@@ -1,0 +1,179 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import 'simplebar-react/dist/simplebar.min.css';
+
+@layer base {
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+body {
+    /* Just inherit from html as it has the correct 'Be Vietnam Pro' font and enough fallback fonts */
+    @apply text-base bg-neutral-bg-layout text-neutral-text;
+}
+
+a {
+    @apply !text-inherit no-underline;
+}
+
+.ant-spin-dot-item {
+    @apply !bg-spin;
+}
+
+.ant-spin-nested-loading {
+    @apply w-full;
+}
+
+.ant-popover-content {
+    @apply h-full;
+}
+.ant-drawer-content,
+.ant-drawer-content-wrapper {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item {
+    @apply text-base text-neutral-text;
+}
+.ant-dropdown .ant-dropdown-menu {
+    @apply bg-neutral-bg-layout;
+}
+
+.ant-popover-inner-content {
+    @apply h-full;
+}
+
+.ant-spin-nested-loading {
+    height: 100% !important;
+}
+
+.ant-spin-container {
+    height: 100% !important;
+}
+
+.form-rate .ant-form-item-label {
+    text-align: center;
+}
+
+.form-rate .ant-form-item-label label {
+    font-size: 24px !important;
+    font-weight: 600;
+}
+
+.ant-tag-checkable {
+    font-size: 16px;
+    padding: 4px 10px;
+    border-radius: 24px;
+    border: 1px solid #d9d9d9;
+}
+
+.ant-tag-checkable-checked {
+    color: #389e0d;
+    background: #f6ffed;
+    border-color: #b7eb8f;
+}
+
+.ant-tag-checkable-checked:hover {
+    background-color: #f6ffed;
+}
+
+.label-input .ant-form-item-label label {
+    font-size: 18px !important;
+    font-weight: 600;
+}
+
+.ant-form-item-label > label::after {
+    display: none;
+}
+
+/* .ant-tag-checkable:hover {
+    color: rgba(0, 0, 0, 0.88) !important;
+} */
